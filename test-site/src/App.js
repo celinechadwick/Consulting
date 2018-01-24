@@ -30,7 +30,7 @@ class App extends Component {
         <div className="col-4-container">
           <div className="row">
             <div className="col-4">
-              <img src="" className="workforce-dev-image"/>
+              <img src="./assets/workforce1.png" className="image"/>
                 <h2> WORKFORCE DEVELOPMENT </h2>
                 <ul>
                   <li>Strategic planning and product management</li>
@@ -44,7 +44,7 @@ class App extends Component {
             </div>
 
             <div className="col-4">
-              <img src="" className="construction-ind-image"/>
+              <img src="./assets/construction.png" className="image" alt="construction"/>
                 <h2>CONSTRUCTION INDUSTRY SERVICES</h2>
                 <ul>
                   <li>Curriculum development and program design</li>
@@ -53,7 +53,7 @@ class App extends Component {
             </div>
 
             <div className="col-4">
-              <img src="" className="construction-ind-image"/>
+              <img src="./assets/gov.png" className="image" alt="contracting"/>
                 <h2>GOVERNMENT CONTRACTING SERVICES</h2>
                 <ul>
                   <li>Navigation of government procurement markets for prime and subcontractors, including diverse businesses</li>
