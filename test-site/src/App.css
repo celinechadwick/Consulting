@@ -1,28 +1,79 @@
-.App {
+
+
+.nav{
+  height:100px;
+}
+
+.logo{
+  max-width: 600px;
+  position:relative;
+  display: block;
+  margin:auto;
+}
+
+.banner{
+  height:300px;
+  background-image: url(https://static1.squarespace.com/static/5a4d5121e5dd5be338087d28/5a68b0e953450a1e86bc9edb/5a6901f624a694afea525946/1516831223269/peoplebanner.jpg?format=2500w);
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.white-text-h1{
+  font-size: 28px;
   color: white;
+  padding-top:3%;
+  font-family: Georgia;
+  font-weight:normal;
 }
 
-.App-title {
-  font-size: 1.5em;
+.white-text-p{
+  font-family: Futura;
+  font-weight: lighter;
+  padding:2% 20%;
+  color: white;
+  font-size: 19px;
+  line-height: 160%;
 }
 
-.App-intro {
-  font-size: large;
+.topic-col-12 {
+  text-align: center;
+  padding:6%;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h1{
+  font-family: Georgia;
+  font-size:32px;
+  font-weight: lighter;
+}
+.col-4-container{
+width:100%;
+ margin:auto;
+}
+
+.row .col-4{
+  width:33.3333%;
+  float: left;
+}
+.col-4{
+  width: calc((100% - 20px * 3) / 3);
+  
+   float: left;
+}
+.row:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+h2{
+  font: Futura;
+  text-transform: uppercase;
+  font-size:18px;
+  color:rgb(227,75,60);
+  letter-spacing: 1.2px;
+}
+ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
