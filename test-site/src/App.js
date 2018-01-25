@@ -11,6 +11,9 @@ class App extends Component {
         </div>
 
         <div className="banner">
+          <h1 className="white-text-h1">
+            About Us
+          </h1>
             <p className="white-text-p">
               Rascon Associates LLC advises private, not-for-profit and government agencies across
               the country on building and administering entrepreneurial and employment training
@@ -36,7 +39,6 @@ class App extends Component {
                   <li>Design and governance</li>
                   <li>Program grant and management systems</li>
                   <li>Service delivery</li>
-                  <li>Performance accountability</li>
                   <li>Performance accountability</li>
                   <li>WIOA policy and program compliance and implementation</li>
                 </ul>
