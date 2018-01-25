@@ -1,4 +1,7 @@
-
+body{
+  background-color: rgba(242,242,242,1);
+  box-sizing: border-box;
+}
 
 .nav{
   height:100px;
@@ -22,33 +25,37 @@
 .white-text-h1{
   font-size: 28px;
   color: white;
-  padding-top:3%;
+  padding:2% 15%;
+
   font-family: Georgia;
   font-weight:normal;
 }
 
 .white-text-p{
-  font-family: Futura;
-  font-weight: lighter;
-  padding:2% 20%;
+  font-family: futura-pt, sans-serif;
+  font-weight: 200;
+  padding: 10%;
+  margin:0 auto;
   color: white;
-  font-size: 19px;
-  line-height: 160%;
+  font-size: 20px;
+  line-height: 1.8em;
+  letter-spacing: .06em;
 }
 
 .topic-col-12 {
   text-align: center;
-  padding:6%;
+  margin:8%;
 }
 
 h1{
   font-family: Georgia;
   font-size:32px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .col-4-container{
 width:90%;
  margin:auto;
+ padding-bottom:7%;
 }
 
 .row .col-4{
@@ -56,7 +63,11 @@ width:90%;
   float: left;
   margin-left:1%;
   margin-right:2%;
-  padding:1%
+  padding-top:4%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-top: 1px solid grey;
+
 }
 
 .row:after {
@@ -65,27 +76,56 @@ width:90%;
   content: '';
 }
 h2{
-  font: Futura;
+  font-family: futura-pt, sans-serif;
   text-transform: uppercase;
   font-size:18px;
   color:rgb(227,75,60);
-  letter-spacing: 1.2px;
+  letter-spacing: 0.08em;
+  font-weight:600;
+  line-height:1.2em;
 }
 ul{
   list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: Futura;
-    font-weight: lighter;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 120%;
+    line-height: 1.4em;
+    color:rgb(8,27,51);
+;
 }
 li{
-  margin:15px;
+  margin:20px;
 }
-.col-4 .image{
+.image{
   width:80px;
   position:relative;
   display: block;
   margin:auto;
+}
+.container-2{
+  width:80%;
+  margin:0 auto;
+  border-top: 1px solid grey;
+
+}
+.workforce2 {
+  width:100px;
+  position:relative;
+  display: block;
+  margin:5% auto 0;
+}
+.workforce-p{
+  font-family: futura-pt, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 2em;
+  margin:3%;
+}
+.lets-chat{
+  border-top: 1px solid grey;
+  width:80%;
+  margin:0 auto;
+  padding:2%;
 }

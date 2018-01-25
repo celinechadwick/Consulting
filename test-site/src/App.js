@@ -11,7 +11,6 @@ class App extends Component {
         </div>
 
         <div className="banner">
-          <h1 className="white-text-h1">About Us</h1>
             <p className="white-text-p">
               Rascon Associates LLC advises private, not-for-profit and government agencies across
               the country on building and administering entrepreneurial and employment training
@@ -63,13 +62,11 @@ class App extends Component {
           </div>
         </div>
 
-        <div className="row">
+          <div className="container-2">
           <div className="topic-col-12">
-            <img src=""/>
-          </div>
-          <div className="topic-col-12">
+          <img src="./assets/workforce2.png" className="workforce2"/>
             <h1>Workforce Development</h1>
-              <p>
+              <p className="workforce-p">
                 We take a local and regional approach to help workforce development organizations build an
                 exceptional workforce and talent pipeline through targeted education, training and employment
                 support services. We understand how to respond to the changing demand for skills and how to
