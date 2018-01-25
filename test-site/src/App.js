@@ -76,10 +76,7 @@ class App extends Component {
           </div>
 
       <div className="lets-chat">
-          <h1>Lets Chat.</h1>
       </div>
-
-
       </div>
     );
   }
