@@ -6,15 +6,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="nav">
-          <img src="./assets/logo1.png" className="logo"/>
-        </div>
 
-        <div className="banner" style={{backgroundImage: 'url("./assets/bannerimg.jpg")'}} alt='banner'>
-          <h1 className="white-text-h1">
-            ABOUT US
-          </h1>
+      <div className="nav" style={{'background-image':"url('https://images.unsplash.com/photo-1500004621732-74cd4ad4d53e?ixlib=rb-0.3.5&s=f272dea50157a0cc05fa8656f726de82&auto=format&fit=crop&w=1350&q=80')"}}>
+          <img src="./assets/cardlogo1.png" className="logo"/>
+      </div>
+        <div className="banner">
             <p className="white-text-p">
+            <h1 className="about-h1">ABOUT US</h1>
               Rascon Associates LLC advises private, not-for-profit and government agencies across
               the country on building and administering entrepreneurial and employment training
               programs
@@ -23,7 +21,7 @@ class App extends Component {
 
         <div className="container">
             <div className="topic-col-12">
-              <h1>AREAS OF PRACTICE</h1>
+              <h1 className="body-h1">AREAS OF PRACTICE</h1>
             </div>
         </div>
 
@@ -65,7 +63,7 @@ class App extends Component {
           <div className="container-2">
           <div className="topic-col-12">
           <img src="./assets/workforce2.png" className="workforce2"/>
-            <h1>Workforce Development</h1>
+            <h1 className="body-h1">Workforce Development</h1>
               <p className="workforce-p">
                 We take a local and regional approach to help workforce development organizations build an
                 exceptional workforce and talent pipeline through targeted education, training and employment
