@@ -7,12 +7,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="nav">
-          <img src="./assets/card-logos-2.png" className="logo"/>
+          <img src="./assets/logo1.png" className="logo"/>
         </div>
 
-        <div className="banner">
+        <div className="banner" style={{backgroundImage: 'url("./assets/bannerimg.jpg")'}} alt='banner'>
           <h1 className="white-text-h1">
-            About Us
+            ABOUT US
           </h1>
             <p className="white-text-p">
               Rascon Associates LLC advises private, not-for-profit and government agencies across
@@ -22,11 +22,9 @@ class App extends Component {
         </div>
 
         <div className="container">
-          <div className="row">
             <div className="topic-col-12">
-              <h1>Areas of Practice</h1>
+              <h1>AREAS OF PRACTICE</h1>
             </div>
-          </div>
         </div>
 
         <div className="col-4-container">
